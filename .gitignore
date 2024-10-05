@@ -1,0 +1,37 @@
+# Ignore Cargo's output directory (compiled code, etc.)
+/target/
+
+# Ignore debug and release directories
+**/debug/
+**/release/
+
+# If you use an IDE, ignore its configuration files
+# For Visual Studio Code
+/.vscode/
+/*.code-workspace
+
+# For JetBrains IDEs (CLion, IntelliJ IDEA)
+/.idea/
+/*.iml
+
+# macOS specific files
+.DS_Store
+
+# Ignore specific editor temporary files
+*.swp
+*.swo
+*.bak
+*.tmp
+*.log
+
+# Ignore build artifacts
+/target/
+
+# Ignore binary files
+*.rs.bk
+*.exe
+*.out
+*.log
+
+# Ignore Rustfmt and Clippy output
+**/*.rs.bk
